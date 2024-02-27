@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    height: 15rem;
+    width: 43rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.image{
+    object-fit: cover;
+    height: 15rem ;
+}
+
+.content {
+    padding: 0rem 1rem;
+    position: relative;
+    height: 7rem;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 40px;
+}

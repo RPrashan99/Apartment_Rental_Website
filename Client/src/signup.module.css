@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('/backgrounds/Background3.jpg'); 
+    background-position: center;
+    background-size: cover;
+    margin: 0 20rem ;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+details {
+    width: 25rem;
+    align-items: center;
+}
+
+.details form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(248, 243, 243, 0.582);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}

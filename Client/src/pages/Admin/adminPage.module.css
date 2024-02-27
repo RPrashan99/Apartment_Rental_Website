@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    background-image: url('/backgrounds/Background4.jpg');
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header{
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.header a{
+    display: flex;
+    margin-left: 30rem;
+    align-items: center;
+    background-color: red;
+    opacity: 0.8;
+    border: 1px solid black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+    opacity: 1;
+    color: red;
+    background-color: white;
+}
+
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo{  
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 4rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(194, 187, 187, 0.547);
+    margin: 0 30rem;
+}

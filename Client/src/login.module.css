@@ -1,0 +1,113 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/backgrounds/Background3.jpg');
+    background-blend-mode:difference;
+    background-size: auto;
+    background-position: center;
+    height: 100vh;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem 5rem;
+    width: 40;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background-image: url('/backgrounds/Background3.jpg');
+    background-size: cover;
+}
+
+.functions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.logo{
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note{
+    background-color: whitesmoke;
+    color: green;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.form{
+    display: flex;
+    background-color: rgba(248, 243, 243, 0.582);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.item{
+    margin: 3rem;
+    display: flex;
+    background-color: rgb(58, 58, 139);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.itemT{
+    width: 5rem;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.image{
+    width: 12rem;
+    border-radius: 100%;
+}
+
+.container button{
+    width: 15rem;
+    border-radius: 0.5rem;
+    background-color: rgba(41, 41, 191, 0.929);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container input{
+    width: 20rem;
+}
+
+.accountReg{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.button2 {
+    background-color: rgba(41, 41, 191, 0.929);
+    border-radius: 0.5rem;
+    color: white;
+    margin: 3rem;
+    padding: 0.5rem;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

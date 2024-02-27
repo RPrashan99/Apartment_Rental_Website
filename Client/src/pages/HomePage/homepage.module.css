@@ -1,0 +1,142 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+}
+
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding:0 3rem;
+    background-color: rgba(19, 18, 18, 0.8);
+}
+
+.logo{  
+    border: 0.2rem solid black;
+    border-radius: 100%;
+    width: 20rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size:cover;
+    background-position: center;
+    background-image: url('/backgrounds/Background3.jpg');
+    min-height: 92vh;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    width: 100%;
+    background-color: beige;
+    padding-bottom: 1rem;
+}
+
+.paraTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 16rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    object-fit: cover;
+    width: 24.5rem;
+    height: 14rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.c2Para a{
+    display: flex;
+    background-color: brown ;
+    color: white;
+    padding: 0.2rem;
+    width: 8rem;
+    margin-left: 10rem;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-style: outset;
+    opacity: 0.8;
+}
+
+.c2Para a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image2{
+    display: flex;
+    margin: 1rem        ;
+    width: 25rem;
+    height: 20rem;
+}
+
+.para2{
+    display: flex;
+    margin: 0 2rem;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.para2Title {
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    padding-left: 3rem;
+}

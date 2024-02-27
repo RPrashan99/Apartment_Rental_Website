@@ -1,0 +1,198 @@
+body{
+    background-image: url('/backgrounds/Background1.jpg');
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: left;
+    align-items:normal;
+    flex: wrap;
+    margin: 3rem;
+    margin-left: 5rem;
+}
+/* all direct children*/
+.container > *{
+    min-width: 30rem;
+    max-width: 40rem;
+}
+
+.images{
+    max-width: 40rem;
+}
+
+.image{
+    width: 40rem;
+    object-fit: cover;
+}
+
+.fImage{
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.details{
+    margin-left: 10rem;
+}
+
+.header{
+    background-color: lightgray;
+    border: 0.01rem solid;
+    border-color: white;
+    border-radius: 1rem;
+    margin-top: 6rem;
+}
+
+.header >*{
+    
+    margin: 1rem 1rem 1rem 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-indent: 0.5rem;
+    font-weight: bold;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.tab2{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.apartDetails{
+    border-color: black;
+    border-radius: 1rem;
+    background-color: rgba(184, 178, 178, 0.999);
+    padding: 1rem;
+}
+
+.detailTitle{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-indent: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.detailsRoom{
+    text-indent: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.detailsRoom >*{
+    background-color: gainsboro;
+    margin-bottom: 0.5rem;
+}
+
+.container2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0.6rem 0.5rem;
+    background-image: url('/backgrounds/Background2.jpg');
+    background-position: center;
+    
+}
+
+.container2 >*{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    width: 40rem;
+    border: 1px solid black;
+    margin: 1rem 10rem 0 5rem;
+    padding: 2rem;
+    background-color: rgb(237, 230, 230);
+}
+
+.movingDate{
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgb(237, 230, 230);
+    margin-left: 6rem;
+    width: 22rem;
+    font-weight: bold;
+}
+
+.movingDate button{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(183, 182, 182);
+    color: green;
+}
+
+.movingDate button:hover{
+    color: white;
+    background-color: green;
+}
+
+.available {
+    display: flex;
+    flex-direction: row;
+}
+
+.available >*{
+    display: flex;
+    margin-right: 3rem ;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    padding:3rem;
+    background-color: beige;
+}
+
+.container3 >*{
+    padding: 0.6rem;
+    border: 1px solid black;
+    min-height: 10rem;
+    min-width: 10rem;
+    background-color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.rules{
+    list-style-type:disc;
+}
+
+.rules >*{
+    background-color: rgb(222, 213, 213);
+    padding: 0.2rem;
+    margin: 0.6rem    ;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemTitle {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.item{
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    background-color: antiquewhite;
+}
+
+.datePickerContainer {
+    display: inline-block;
+    position: relative;
+  }
